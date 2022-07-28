@@ -1,0 +1,93 @@
+/* selector de clase */
+
+body{
+    display: inline-block;
+    font-family: 'Lato','Helvetica','Arial';
+    font-size: small;
+
+}
+.encabezado1{
+    background-color: #39394D;
+    font-size: x-small;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#navegacion{
+    text-align: left;
+    display: inline;
+    margin-right: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        
+}
+#navegacion2{
+    text-align: right;
+    display: inline;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.colorhref{
+    color: aliceblue;
+}
+
+.logozoom{
+    display: inline-block;
+    width: 8%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin: 0px;
+    height: auto;
+
+}
+
+#divpanelizquierdo{
+    display: block;
+    width: 50%;
+}
+
+#divpanelderecho{
+    display: block;
+    width: 50%;
+}
+
+.panelizquierdo{
+    color: #595959;
+    background-image: url(./img/fondo-izquierdo-zoom.png);
+    background-position: center 170px;
+    background-size: 569px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: solid red;
+    border-radius: 0 12px 12px 0;
+}
+
+.tituloizquierdo{
+    margin: 110px;
+}
+
+.subtituloizquierdo{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 211px;
+}
+.panelderecha{
+    background-color: #fff;
+    color: ;
+    border-radius: 0 12px 12px 0;
+    border: solid green;
+    min-height: 450px;
+
+}
+
+.descripcion{
+    display: block;
+    
+}
+
+.entrada{
+    display: block;
+}
